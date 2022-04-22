@@ -134,7 +134,7 @@
 '''
 
 # classValidator
-'''php
+'php
 <?php
 class Validator
 {
@@ -260,4 +260,4 @@ class Validator
 
 
 ?>
-'''
+'
