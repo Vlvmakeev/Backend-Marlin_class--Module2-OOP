@@ -1,6 +1,6 @@
 # Component1 Database
 ## config.php
-`php {
+```php
 <?php
     
     return [
@@ -13,10 +13,10 @@
         ]
     ];
 ?>
-}`
+```
 
 ## Connection.php
-'''php
+```php
 <?php
 
     class Connection
@@ -30,10 +30,10 @@
         }
     }
 ?>
-'''
+```
 
 ## QueryBuilder
-'''php
+```php
 <?php
     class QueryBuilder
     {
@@ -102,11 +102,11 @@
         }
     }
 ?>
-'''
+```
 
 # Functions
 ## dd
-'''php
+```php
 <?php
     function dd($_POST['name']){
         echo '<pre>';
@@ -114,9 +114,10 @@
         echo '</pre>';
         die;} // Получаем дамп переменной и выводим его в блоке предварительного форматированного текста, обязательно завершая работу скрипта.
 ?>
-'''
+```
+
 # FlashMessageBuilder
-'''php
+```php
 <?php
     class FlashMessageBuilder
     {
@@ -131,10 +132,10 @@
                 unset(success);}} // А здесь мы выводим наше alert-сообщение
     }
 ?>
-'''
+```
 
 # classValidator
-`php
+```php
 <?php
 class Validator
 {
@@ -260,4 +261,4 @@ class Validator
 
 
 ?>
-`
+```
