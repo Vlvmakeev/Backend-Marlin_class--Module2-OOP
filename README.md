@@ -1,6 +1,6 @@
 # Component1 Database
 ## config.php
-'''php
+`php {
 <?php
     
     return [
@@ -13,7 +13,7 @@
         ]
     ];
 ?>
-'''
+}`
 
 ## Connection.php
 '''php
